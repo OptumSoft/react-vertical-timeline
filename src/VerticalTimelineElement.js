@@ -35,7 +35,7 @@ var VerticalTimelineElement = function (_Component) {
     var _this = _possibleConstructorReturn(this, (VerticalTimelineElement.__proto__ || Object.getPrototypeOf(VerticalTimelineElement)).call(this, props));
 
     _this.onVisibilitySensorChange = _this.onVisibilitySensorChange.bind(_this);
-    _this.state = { visible: false };
+    _this.state = { visible: true };
     return _this;
   }
 

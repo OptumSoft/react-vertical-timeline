@@ -7,7 +7,7 @@ class VerticalTimelineElement extends Component {
   constructor(props) {
     super(props);
     this.onVisibilitySensorChange = this.onVisibilitySensorChange.bind(this);
-    this.state = { visible: false };
+    this.state = { visible: true };
   }
 
   onVisibilitySensorChange(isVisible) {
